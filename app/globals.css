@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  color-scheme: light;
+  --brand-ink: #0f172a;
+  --brand-teal: #0f766e;
+  --brand-cyan: #0891b2;
+  --brand-blue: #1d4ed8;
+  --brand-mint: #ccfbf1;
+  --brand-gold: #f59e0b;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(1000px 420px at -5% -10%, #d1fae5 0%, transparent 58%),
+    radial-gradient(900px 380px at 110% 0%, #dbeafe 0%, transparent 56%),
+    #f8fafc;
+  color: var(--brand-ink);
+  font-family: Inter, system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Source Serif 4", Georgia, serif;
+}
+
+.page-wrap {
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: 2.25rem 1.5rem;
+}
+
+.lead {
+  color: #334155;
+  line-height: 1.7;
+}
+
+.glass-card {
+  border: 1px solid #cbd5e1;
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(4px);
+}
+
+.brand-chip {
+  border: 1px solid #67e8f9;
+  background: linear-gradient(90deg, #ecfeff 0%, #eef2ff 100%);
+  color: #155e75;
+}

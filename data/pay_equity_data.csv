@@ -1,0 +1,5 @@
+employee_id,role,level,tenure,performance,gender,salary
+1,Engineer,5,3,4,F,150000
+2,Engineer,5,4,4,M,155000
+3,Engineer,6,6,5,F,175000
+4,Engineer,6,7,5,M,180000

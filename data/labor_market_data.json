@@ -1,0 +1,6 @@
+[
+  { "role": "ML Engineer", "supply": 35, "demand": 90, "salary": 185000, "location": "San Francisco", "industry": "Tech" },
+  { "role": "AI Researcher", "supply": 20, "demand": 95, "salary": 210000, "location": "San Francisco", "industry": "Tech" },
+  { "role": "Product Manager", "supply": 70, "demand": 65, "salary": 165000, "location": "New York", "industry": "Tech" },
+  { "role": "Data Analyst", "supply": 85, "demand": 50, "salary": 115000, "location": "Austin", "industry": "Cross-industry" }
+]
